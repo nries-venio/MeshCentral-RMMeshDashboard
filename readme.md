@@ -1,6 +1,10 @@
-# MeshCentral-FileDistribution
+# MeshCentral-RMMeshDashboard
 
-Sample plugin for the [MeshCentral2](https://github.com/Ylianst/MeshCentral) Project.
+This comprehensive dashboard is intended to offer a centralized view of essential IT sysadmin data, including real-time antivirus status, a complete list of installed applications, the current status of designated "priority" services, and system patches. 
+Designed for efficiency and clarity, it provides IT administrators with instant insights into system health and security. 
+The intuitive interface ensures easy navigation across different data points, enabling quick decision-making and effective monitoring. 
+This dashboard is an indispensable tool for maintaining the integrity and performance of IT infrastructure, ensuring that all systems are secure, up-to-date, and functioning optimally. 
+plugin for the [MeshCentral2](https://github.com/Ylianst/MeshCentral) Project.
 
 ## Installation
 
@@ -11,13 +15,17 @@ Sample plugin for the [MeshCentral2](https://github.com/Ylianst/MeshCentral) Pro
 Restart your MeshCentral server after making this change.
 
  To install, simply add the plugin configuration URL when prompted:
- `https://raw.githubusercontent.com/ryanblenis/MeshCentral-FileDistribution/master/config.json`
+ `https://raw.githubusercontent.com/nries-venio/MeshCentral-RMMeshDashboard/master/config.json`
 
-## Features
-- Distribute files from the "My Files" tab to your endpoints.
+## Features:
 
-## Usage Notes
-- Files are distributed from the server to the chosen path(s) on each chosen endpoint.
-- The endpoints check their distributed files every 20 minutes. If the file is missing or not the correct size, the file is requested form the server.
-- The server checks the files that are used in the "My Files" section every 20 minutes. If the files have changed, the clients are pushed new files.
-- File checks are currently based on size, lacking a good file hashing method in the MeshAgent. This also speeds the checking process, but is less than optimal in ensuring the file is an exact copy.
+Real-time Antivirus Status: Tracks and displays current antivirus protection levels.
+Installed Applications List: Provides a comprehensive view of all software installed across systems.
+Priority Services Status: Monitors and reports on the status of designated critical services.
+Patch Management: Displays the status of system patches, ensuring systems are up-to-date.
+
+## Usage Notes:
+
+User-Friendly Interface: Designed for ease of use, enabling quick navigation and data analysis.
+Insightful Monitoring: Facilitates proactive IT management by providing immediate insights into system health and security.
+Optimized for MeshCentral: Seamlessly integrates with the MeshCentral2 framework, enhancing its capabilities.
