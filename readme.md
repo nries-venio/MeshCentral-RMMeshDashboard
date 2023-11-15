@@ -19,13 +19,13 @@ Restart your MeshCentral server after making this change.
 
 ## Features:
 
-Real-time Antivirus Status: Tracks and displays current antivirus protection levels.
-Installed Applications List: Provides a comprehensive view of all software installed across systems.
-Priority Services Status: Monitors and reports on the status of designated critical services.
-Patch Management: Displays the status of system patches, ensuring systems are up-to-date.
+- Real-time Antivirus Status: Tracks and displays current antivirus protection levels.
+- Installed Applications List: Provides a comprehensive view of all software installed across systems.
+- Priority Services Status: Monitors and reports on the status of designated critical services.
+- Patch Management: Displays the status of system patches, ensuring systems are up-to-date.
 
 ## Usage Notes:
 
-User-Friendly Interface: Designed for ease of use, enabling quick navigation and data analysis.
-Insightful Monitoring: Facilitates proactive IT management by providing immediate insights into system health and security.
-Optimized for MeshCentral: Seamlessly integrates with the MeshCentral2 framework, enhancing its capabilities.
+- User-Friendly Interface: Designed for ease of use, enabling quick navigation and data analysis.
+- Insightful Monitoring: Facilitates proactive IT management by providing immediate insights into system health and security.
+- Optimized for MeshCentral: Seamlessly integrates with the MeshCentral2 framework, enhancing its capabilities.
