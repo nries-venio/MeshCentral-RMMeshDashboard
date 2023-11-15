@@ -1,6 +1,6 @@
 /** 
-* @description MeshCentral FileDistribution plugin
-* @author Ryan Blenis
+* @description MeshCentral RMM Dashboard plugin
+* @author Nathanael Ries
 * @copyright 
 * @license Apache-2.0
 */
